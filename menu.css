@@ -1,0 +1,107 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /*BackGround */
+  body{
+  background: url(https://cdn.tatlerasia.com/asiatatler/i/my/2018/11/02193226-web-4-fingers_cover_2000x761.jpg);
+  } 
+  
+  /* header */
+  header{
+    position: fixed;
+    top: 0; left: 0; right:0;
+    background: white;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+  
+  header .logo{
+    color: black;
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+  
+  /* LOGO */
+  header .logo i{
+    color: black;
+  }
+  
+  /* Menu Contact */
+  header .navbar a{
+    font-size: 2.5rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: black;
+  
+  }
+  
+  header .navbar a.active,
+  
+  /* Home */
+  header .navbar a:hover{
+    color: white;
+    background:red ;
+  }
+  
+  header .icons #menu-bars{
+    display: none;  
+  }
+  
+  
+  /*Menu List */
+  .menu-item {
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+      background-color: transparent;
+  }
+  
+  
+  /* Menu Item Name */
+  h1 {
+      text-align: center;
+      font-family: Didot, serif;
+      font-size: 30px;
+      color: white;
+      padding: 10px 10px;
+      background: black;
+    margin:1.5px
+  }
+  
+  p {
+      text-align: center;
+      font-family: Didot, serif;
+      font-size: 30px;
+      color: white;
+      padding: 10px 10px;
+    background:black;
+    margin:1.5px;
+  }
+  
+  .food-image{
+    padding: 10px 10px;
+    background: black;
+    align-items: center;
+    margin-top: 150px;
+  }
+  
+  
+  /*FOOTER*/
+  
+  /*social media links*/
+    footer {
+      display: flex;
+      align-items: center;
+      position: sticky;
+      justify-content: center;
+      bottom:0;
+      padding-top:10px;
+      width: 100%;
+      opacity:0.85;
+    }  

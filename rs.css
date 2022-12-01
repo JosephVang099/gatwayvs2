@@ -1,0 +1,158 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* BackGround */
+  body{
+  background: url(https://cdn.tatlerasia.com/asiatatler/i/my/2018/11/02193226-web-4-fingers_cover_2000x761.jpg) no-repeat; background-size: cover;
+  }
+  *{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+  }
+  
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+  }
+  
+  /* header */
+  header{
+    position: fixed;
+    top: 0; left: 0; right:0;
+    background: white;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+  
+  header .logo{
+    color: black;
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+  
+  /* LOGO */
+  header .logo i{
+    color: black;
+  }
+  
+  /* Menu Contact */
+  header .navbar a{
+    font-size: 2.5rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: black;
+    ;
+  }
+  
+  header .navbar a.active,
+  
+  /* Home */
+  header .navbar a:hover{
+    color: white;
+    background:red ;
+  }
+  
+  header .icons #menu-bars{
+    display: none;  
+  }
+  
+  /* About Us */
+  .about {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 40px;
+      background: black;
+  } 
+  
+  /* Why Choose Us? */
+  .best {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background: black;
+   
+  }
+  
+  /* Contact */ 
+  .contact-title{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+  }
+  
+  form{
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .form-control{
+    width: 600px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+  
+  input{
+    height: 45px;
+  }
+  
+  form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  
+  form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+  }
+  
+  /*FOOTER*/
+  /*Doesn't Show Up */
+  
+  /*social media links*/
+    footer {
+      display: flex;
+      align-items: center;
+      position: sticky;
+      justify-content: center;
+      bottom:0;
+      padding-top:10px;
+      width: 100%;
+      opacity:0.85;
+    }  
